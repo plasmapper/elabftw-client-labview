@@ -5,7 +5,7 @@ Tested on [demo.elabftw.net](https://demo.elabftw.net/).
 LabVIEW 2015 and higher.
 
 ## Features
-Full functionaltity of the [eLabFTW API](https://doc.elabftw.net/api/). 
+Full functionaltity of the [eLabFTW API v1](https://doc.elabftw.net/api/). 
 
 ## Examples
 ### eLabFTW Client.vi
