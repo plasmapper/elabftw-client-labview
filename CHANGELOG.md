@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - File path input to `Get File.vi`.
+- File path input to `Get Backup.vi`.
 
 ### Changed
 - Set Get VIs id input as required.
