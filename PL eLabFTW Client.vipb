@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 17:51:50" Modified_Date="2022-07-20 18:56:35" Creator="Researcher" Comments="" ID="e0779228dce2b279085f8c9aae56a72d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 17:51:50" Modified_Date="2022-08-01 14:27:02" Creator="Researcher" Comments="" ID="87146829d41bf024ba88e2a6db82f6db">
   <Library_General_Settings>
     <Package_File_Name>plasmapper_lib_PL_eLabFTW_Client</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -37,7 +37,15 @@ Full functionaltity of the eLabFTW API v1 (https://doc.elabftw.net/api/).</Descr
       <Copyright/>
       <Packager>plasmapper</Packager>
       <URL>https://github.com/plasmapper/elabftw-client-labview</URL>
-      <Release_Notes>Initial release.</Release_Notes>
+      <Release_Notes>Added
+- File path input to `Get File.vi`.
+- File path input to `Get Backup.vi`.
+
+Changed
+- Set Get VIs id input as required.
+
+Removed
+- External library dependency in `Get Event.vi`.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -270,7 +278,7 @@ Full functionaltity of the eLabFTW API v1 (https://doc.elabftw.net/api/).</Descr
         <Path>Public\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDEADBA3F0077BE54621FF7D76EC8AF0</GUID>
+      <GUID>E291B4BE2126A8A00FB298DF7753E4CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +341,7 @@ Full functionaltity of the eLabFTW API v1 (https://doc.elabftw.net/api/).</Descr
         <Path>Public\Data\Set</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>496E8CFB4D547DF6049457F9E9F841B4</GUID>
+      <GUID>3529B537A359E536DACDD1F3501C9FA5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -410,7 +418,7 @@ Full functionaltity of the eLabFTW API v1 (https://doc.elabftw.net/api/).</Descr
         <Path>Public\Utility\Get Event.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA36C00027BA740386073B0F79A39247</GUID>
+      <GUID>8281B6216C359E497F73F9A73E9D2CC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -529,7 +537,7 @@ Full functionaltity of the eLabFTW API v1 (https://doc.elabftw.net/api/).</Descr
         <Path>Public\Data\Create\Upload File to Database Item.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7CC8860E80443C1F29F498A01383B7E</GUID>
+      <GUID>86BB4AD0B270B60AA186FFA5156658AF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -690,7 +698,7 @@ Full functionaltity of the eLabFTW API v1 (https://doc.elabftw.net/api/).</Descr
         <Path>Public\Data\Get\Get File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>421C25A61F31B3FBECD79FF37BEE1538</GUID>
+      <GUID>2FF60D7593E1ADEE5388A0320BA2998B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -851,7 +859,7 @@ Full functionaltity of the eLabFTW API v1 (https://doc.elabftw.net/api/).</Descr
         <Path>Public\Data\Set\Set Database Item Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C99A5DA6B2FBF94D6ECA779C4F414CC</GUID>
+      <GUID>6EA4F3ACC38BAA9D09AECEB755D979CB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
